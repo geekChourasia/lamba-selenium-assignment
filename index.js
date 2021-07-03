@@ -2,6 +2,7 @@
 const webdriver = require('selenium-webdriver');
 // const firefox = require('selenium-webdriver/firefox');
 (async () => {
+        //here i used chrome driver.
         let driver = new webdriver.Builder()
                 .forBrowser('chrome')
                 .setFirefoxOptions()
